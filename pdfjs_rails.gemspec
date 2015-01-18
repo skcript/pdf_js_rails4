@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pdfjs_rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "pdfjs_rails"
+  spec.name          = "pdf_js_rails"
   spec.version       = PdfjsRails::VERSION
-  spec.authors       = ["shyam"]
-  spec.email         = ["shyammohankanojia@gmail.com"]
+  spec.authors       = ["Karthik K"]
+  spec.email         = ["karthik@skcript.com"]
   spec.description   = %q{PDFjs viewer for rails application.}
   spec.summary       = %q{PDFjs viewer https://github.com/mozilla/pdf.js for rails application}
-  spec.homepage      = "https://github.com/shyammohankanojia/pdfjs_rails"
+  spec.homepage      = "https://github.com/skcript/pdf_js_rails4"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
